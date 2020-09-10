@@ -1,0 +1,40 @@
+body{
+	background:url("static/background.png");
+}
+
+#sidebar{
+	background:#222;
+	padding:10px;
+}
+#submit{
+	background:#333;
+	color:#eee;
+}
+#fileTitle{
+	background:#333;
+	color:#eee;
+}
+#fileAttachmentLabel{
+	height:200px;
+	padding-top:50px;
+	cursor:pointer;
+}
+#fileAttachment{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#sort{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding:2px;
+	color:ddd;
+	text-align:center;
+}
+#list{
+	height:100%;
+	overflow-y: scroll;
+}
